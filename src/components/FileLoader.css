@@ -1,0 +1,19 @@
+/* FileLoader.css */
+
+.file-loader  {
+  display: block;  
+  /* margin: 10px; */
+  padding: 10px;
+  border: 1px solid black;
+}
+ input{
+    margin-left: 20px;
+    margin-bottom: 1rem;
+    display: block;
+    width: 100%;
+}
+
+.file-loader label{
+    font: bolder;
+    font-size: large;
+}
