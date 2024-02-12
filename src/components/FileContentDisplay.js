@@ -2,7 +2,7 @@ import React from "react";
 import './FileContentDisplay.css'
 function FileContentDisplay({ fileContent }) {
     return (
-        <div class="editor">
+        <div className="editor">
              <h2>File Content</h2>
             <div className="editor-inner " id="file-content" >
                
