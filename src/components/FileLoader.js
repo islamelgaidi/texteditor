@@ -19,8 +19,8 @@ function FileLoader({OnfileLoaded}){
     };
     return (
     <>   
-        <input  placeholder='uploadtxtfile'  ref={hiddenFileInput} type='file'  onChange={OnfileChange} accept='.txt' ></input>
-        <button id="load-button"  onClick={handleClick}>Load File</button>
+        <input type='file'   placeholder='uploadtxtfile'  ref={hiddenFileInput}   onChange={OnfileChange} accept='.txt' ></input>
+        <button id="load-button"  onClick={handleClick}>Upload TXT File</button>
     </> 
     );
 }
