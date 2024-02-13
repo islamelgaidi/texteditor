@@ -1,6 +1,6 @@
 import React from 'react';
 import './ErrorMessage.css';
-const XErrorMessage = ({ message }) => {
+const ErrorMessage = ({ message }) => {
     return (
         <div className="error-message">
             <p>{message}</p>
@@ -8,4 +8,4 @@ const XErrorMessage = ({ message }) => {
     );
 };
 
-export default XErrorMessage;
+export default ErrorMessage;
